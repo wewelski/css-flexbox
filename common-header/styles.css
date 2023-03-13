@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav1,
+.nav2 {
+  color: #7209b7;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav1 {
+  margin-left: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: auto 0;
+}
+
+.invite {
+  margin: auto 0;
+  background-color: #7209b7;
+  color: #fff;
+  padding: .3em 2em;
+  border-radius: .25em;
+}
+
+.circle {
+  margin: auto 1rem;
+  background-color: #7209b7;
+  width: 40px;
+  height: 40px;
+  border-radius: 5em;
+}
+
+img {
+  display: block;
+  margin: 10px auto;
+}
