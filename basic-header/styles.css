@@ -1,0 +1,41 @@
+body {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 75px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: beige;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.left,
+.right {
+  margin: auto 0;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 8px;
+  background-color: #fff;
+  color: blue;
+}
+
+h1 {
+  background-color: #fff;
+  color: red;
+  margin: auto 0;
+  padding: 8px;
+}
+
+img {
+  display: block;
+  margin: 10px auto;
+}
